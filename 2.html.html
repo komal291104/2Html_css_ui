@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            margin: 0;
+
+        }
+        .nav{
+            background-color: white;
+            color: black;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav h1{
+            margin: 0;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+        .name{
+            margin: 0 15px;
+            cursor: pointer;
+
+        }
+        .hero{
+            background-image: url('https://images.pexels.com/photos/18643726/pexels-photo-18643726.jpeg?_gl=1*1jjfvh9*_ga*NDYzMTk3ODg5LjE3NTUxNjExMzc.*_ga_8JE65Q40S6*czE3NTYxMDQ0NzkkbzQkZzEkdDE3NTYxMDUwOTckajYwJGwwJGgw');
+            background-size: cover;
+            display: flex;
+            height:500px;
+            background-position: center;
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h2{
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        .hero-btn{
+            display: flex;
+            gap: 15px;
+        }
+        .hero-btn button{
+            padding: 10px 20px;
+            border: none;
+            background-color: gray;
+            color: white;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius:10px;
+        }
+        .card-section{
+            display: flex;
+            gap:20px;
+            justify-content: center;
+            padding: 60px 20px;
+            background-color: whitesmoke;
+
+        }
+        .card{
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 2px 5px regba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .card h3{
+            margin: 15px 0 10px;
+        }
+        .card p{
+            font-size: 14px;
+            color: gray;
+        }
+        .footer{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav ">
+        <h1>MOON FLOWER </h1>
+            <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <h2>MOONFLOWER</h2>
+        <p>Daffodils are blue , tulips are red <br> the Moonflower shop will help you the best!</p>
+          <div class="hero-btn">
+            <button>LEARN MORE</button>
+            <button>CONTACT</button>
+          </div>
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?_gl=1*q0femm*_ga*NDYzMTk3ODg5LjE3NTUxNjExMzc.*_ga_8JE65Q40S6*czE3NTYyMDEzOTUkbzYkZzEkdDE3NTYyMDMyMDckajQ3JGwwJGgw" alt="">
+            <h3>Pink Roses</h3>
+            <p>Pink roses have a multitude of meanings and symbolism, making them a versatile choice for various occasions. Generally, pink roses symbolise love, grace, gentleness and admiration. They also convey a sense of appreciation, joy and sweetness.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/6632714/pexels-photo-6632714.jpeg?_gl=1*1ize49e*_ga*NDYzMTk3ODg5LjE3NTUxNjExMzc.*_ga_8JE65Q40S6*czE3NTYyMDEzOTUkbzYkZzEkdDE3NTYyMDMzMzYkajYwJGwwJGgw" alt="">
+            <h3>Tulips </h3>
+        <p>The most known meaning of tulips is perfect and deep love. As tulips are a classic flower that has been loved by many for centuries they have been attached with the meaning of love. </p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3699859/pexels-photo-3699859.jpeg?_gl=1*5szih1*_ga*NDYzMTk3ODg5LjE3NTUxNjExMzc.*_ga_8JE65Q40S6*czE3NTYyMDEzOTUkbzYkZzEkdDE3NTYyMDM1ODYkajI0JGwwJGgw" alt="">
+            <h3>Orchids </h3>
+            <p>Pink orchids symbolize femininity, grace, and joy. They are often associated with celebrations of love and affection, such as birthdays and anniversaries. Pink orchids can also express admiration and gratitude, making them a thoughtful gift for friends and family members.</p>
+        </div>
+        </div>
+        <div class="footer">
+             &copy; 2025 MySite .All Rights.
+        </div>
+        
+
+</body>
+</html>
